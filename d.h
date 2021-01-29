@@ -37,6 +37,7 @@
  * Example debugging levels. This is also where custom
  * debug levels are specified.
  */
+#include <iostream>
 CREATE_D_LEVEL(std::cout, l, "log: ");
 CREATE_D_LEVEL(std::cout, w, "warn: ");
 CREATE_D_LEVEL(std::cerr, f, "fatal: ");
